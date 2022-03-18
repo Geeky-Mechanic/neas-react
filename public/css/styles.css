@@ -1,0 +1,147 @@
+/* profile + navbar sections */
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.name{
+  padding: 7% 0 4%;
+  font-size: 6.5rem;
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+}
+
+.neas-logo{
+  width: 12rem;
+  position: absolute;
+  left: 4rem;
+}
+
+.right-align{
+  margin-left: 65%;
+}
+.generic-background{
+  background-color:#ff4646;
+  padding: 3% 0;
+}
+
+.profile{
+  text-align: center;
+  padding: 0 20%;
+}
+
+.profile-img{
+  border-radius: 100%;
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 5%;
+}
+
+.toggler-position{
+  margin-left: 75%;
+}
+
+.section-title{
+  margin: 0 0 5% 0;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+
+.card-title{
+  font-size: 2.5rem;
+}
+
+.card-text{
+  font-size: 1.75rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+/* most recent section */
+
+.recent-section{
+  background-color: #fff;
+  padding: 4% 15%;
+}
+
+.album-picture-recent{
+  width: 35rem;
+  display: block;
+  margin: 4% auto;
+
+}
+
+.card{
+  border: none;
+}
+
+.card-title{
+  padding: 3% 0;
+}
+
+/* most popular */
+
+.soundcloud{
+  text-decoration: none;
+  color: #fd7e14;
+}
+
+.soundcloud:hover{
+  color: #fd7e14;
+  text-decoration: none;
+}
+
+
+/* footer section  */
+
+.contact-section-text{
+  font-size: 1.75rem;
+  margin: 2.5rem 0;
+}
+
+.image-link-1{
+  text-decoration: none;
+  color: #95D1CC;
+padding-right: 1%;
+}
+
+.image-link-1:hover{
+  color: #AA2EE6;
+}
+
+.image-link-2{
+  text-decoration: none;
+  color: #95D1CC;
+  padding: 0 1%;
+}
+
+.image-link-2:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+.image-link-3{
+  text-decoration: none;
+  color: #95D1CC;
+  padding-left: 1%;
+}
+
+.image-link-3:hover{
+  color: #fd7e14;
+  text-decoration: none;
+}
+
+
+.contact-me{
+  padding: 7% 0 0;
+}
+
+.social-network{
+  margin: 0 0 3% 0;
+  padding-top: 1%;
+}
+
+.copyright-text{
+  margin: 2% 0;
+}
