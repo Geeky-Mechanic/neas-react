@@ -1,147 +1,168 @@
-/* profile + navbar sections */
-body{
+ /*navbar section */
+ body {
   font-family: 'Montserrat', sans-serif;
-
+  color: #CAEDEA;
 }
 
-.name{
+a{
+  color: #CAEDEA;
+}
+
+.bio-text{
+  line-height: 1.5;
+}
+
+.name {
   padding: 7% 0 4%;
   font-size: 6.5rem;
   font-family: 'Teko', sans-serif;
   font-weight: 600;
 }
 
-.neas-logo{
+#nav-color ,#nav-color1, #nav-color2{
+  color: #CAEDEA;
+}
+
+.neas-logo {
   width: 12rem;
   position: absolute;
   left: 4rem;
 }
 
-.right-align{
+.right-align {
   margin-left: 65%;
 }
-.generic-background{
-  background-color:#ff4646;
-  padding: 3% 0;
+
+.toggler-position {
+  margin-left: auto;
 }
 
-.profile{
+.toggler-color {
+  background-color: #2f4858;
+  border-radius: 15%;
+}
+
+/* body */
+
+.background-style-1 {
+  background-color: #131516;
+  padding: 3% 0;
+  color: #fff;
+}
+
+.background-style-2 {
+  background-color: #2f4858;
+  color: #f1d904;
+}
+
+/* profile/bio section */
+
+.profile {
   text-align: center;
   padding: 0 20%;
 }
 
-.profile-img{
+.profile-img {
   border-radius: 100%;
   width: 20rem;
   height: 20rem;
   margin-bottom: 5%;
 }
 
-.toggler-position{
-  margin-left: 75%;
-}
+/* section titles */
 
-.section-title{
+.section-title {
   margin: 0 0 5% 0;
   font-size: 4rem;
   font-weight: 500;
 }
 
+/* recent + most pupolar card customization */
 
-.card-title{
-  font-size: 2.5rem;
+.card {
+  border: none;
 }
 
-.card-text{
+.card-title {
+  font-size: 2.5rem;
+  padding: 3% 0;
+}
+
+.card-text {
   font-size: 1.75rem;
   font-weight: 500;
   padding: 2rem 0;
 }
 
 /* most recent section */
-
-.recent-section{
-  background-color: #fff;
+.recent-section {
   padding: 4% 15%;
 }
 
-.album-picture-recent{
+/* ablum pictures */
+
+.album-picture-recent {
   width: 35rem;
   display: block;
   margin: 4% auto;
-
-}
-
-.card{
-  border: none;
-}
-
-.card-title{
-  padding: 3% 0;
 }
 
 /* most popular */
-
-.soundcloud{
+.soundcloud {
   text-decoration: none;
   color: #fd7e14;
 }
 
-.soundcloud:hover{
+.soundcloud:hover {
   color: #fd7e14;
   text-decoration: none;
 }
-
 
 /* footer section  */
-
-.contact-section-text{
+.contact-section-text {
   font-size: 1.75rem;
   margin: 2.5rem 0;
 }
 
-.image-link-1{
-  text-decoration: none;
-  color: #95D1CC;
-padding-right: 1%;
-}
-
-.image-link-1:hover{
-  color: #AA2EE6;
-}
-
-.image-link-2{
+.social-image-link{
   text-decoration: none;
   color: #95D1CC;
   padding: 0 1%;
 }
 
-.image-link-2:hover{
-  text-decoration: none;
-  color: blue;
+.social-image-link.fa-instagram:hover{
+  color: #bc2a8d;
 }
 
-.image-link-3{
-  text-decoration: none;
-  color: #95D1CC;
-  padding-left: 1%;
+.social-image-link.fa-facebook:hover{
+  color: #4267B2;
 }
 
-.image-link-3:hover{
+.social-image-link.fa-soundcloud:hover{
   color: #fd7e14;
-  text-decoration: none;
 }
 
+.social-image-link.fa-twitch:hover{
+  color: #6441a5;
+}
 
-.contact-me{
+.social-image-link.fa-youtube:hover{
+  color:  #FF0000;
+}
+
+.contact-me {
   padding: 7% 0 0;
 }
 
-.social-network{
+.social-network {
   margin: 0 0 3% 0;
   padding-top: 1%;
 }
 
-.copyright-text{
+.copyright-text {
   margin: 2% 0;
+}
+
+.author-text{
+  text-decoration: none;
 }

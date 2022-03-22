@@ -2,13 +2,12 @@
 import React from 'react';
 
 function Card(props){
-    console.log(props);
     return (
     <div className={`carousel-item ${props.active}`}>
         <div className="container ">
           <div className="row">
             <div className="col">
-              <img src={props.img} className="card-img-bottom album-picture-recent" alt={props.alt} />
+              <img src={props.img} className="card-img-bottom album-picture" alt={props.alt} />
             </div>
             <div className="col">
               <h3 className="card-title">{props.title}</h3>

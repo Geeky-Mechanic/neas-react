@@ -4,7 +4,7 @@ import Profile from './Profile';
 
 function FirstSection(){
     return (        
-<section className="generic-background">
+<section className="background-style-1">
     <Navbar />
     <Profile />
 </section>);

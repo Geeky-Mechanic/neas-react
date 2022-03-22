@@ -3,7 +3,7 @@ import React from 'react';
 function NavItem (props){
     return (
     <li className="nav-item">
-        <a className="nav-link" href={`${props.link}`}>{props.text}</a>
+        <a id={props.id} className="nav-link nav-color" href={`${props.link}`}>{props.text}</a>
     </li>
     );
 }

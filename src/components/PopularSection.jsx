@@ -16,9 +16,9 @@ function createCard(info) {
 
 function PopularSection (){
     return (
-<section className="generic-background text-center" id="most-popular-section">
+<section className="background-style-1 text-center" id="most-popular-section">
 
-  <h1 className="section-title">Most Popular</h1>
+  <h1 className="section-title">Les plus écoutées</h1>
 
   <div id="carouselControls" className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
@@ -28,11 +28,11 @@ function PopularSection (){
     </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
+        <span className="visually-hidden">Précédent</span>
       </button>
       <button className="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
+        <span className="visually-hidden">Prochain</span>
       </button>
   </div>
 </section>

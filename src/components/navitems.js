@@ -1,15 +1,18 @@
 const navitems = [
     {
         link: "#recent-section",
-        text: "Last-release"
+        text: "Nouveautée",
+        id: "nav-color"
     },
     {
         link: "#most-popular-section",
-        text: "Most Popular"
+        text: "Les plus écoutées",
+        id: "nav-color1"
     },
     {
         link: "#contact-me",
-        text: "Contact Me"
+        text: "Contactez-Moi",
+        id: "nav-color2"
     },
 ]
 

@@ -7,6 +7,7 @@ import navitems from './navitems';
       <NavItem 
         link={item.link}
         text={item.text}
+        id={item.id}
       />
     );
   }
@@ -15,7 +16,7 @@ function Navbar(){
     return (
   <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container-fluid right-align">
-      <img src="./images/neas-logo.png" className="neas-logo" alt="neas-logo" />
+      <img src="./images/neas-logo-v2.png" className="neas-logo" alt="neas-logo" />
       <button className="navbar-toggler toggler-position" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
