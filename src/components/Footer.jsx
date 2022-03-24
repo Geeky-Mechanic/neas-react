@@ -6,7 +6,7 @@ function Footer() {
     return(
         <section className="contact-me background-style-2" id="contact-me">
   <div className="container text-center">
-    <h1 className="section-title">Contact-Me!</h1>
+    <h1 className="section-title">Contactez-Moi!</h1>
     <div className="row">
       <div className="col-lg-12 col-md-12 col-sm-12 contact-section-text">
         Suivez-moi sur les resaux sociaux pour avoir les dernières nouvelles

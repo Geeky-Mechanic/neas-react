@@ -5,7 +5,7 @@ import React from 'react';
 function RecentSection(){
     return (
         <section class="recent-section text-center background-style-2" id="recent-section">
-        <h1 class="section-title">Last Realease</h1>
+        <h1 class="section-title">Dernière Publication</h1>
         <div class="card text-center background-style-2">
           <div class="card-body">
             <div class="container ">
